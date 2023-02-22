@@ -1,4 +1,6 @@
 def heapify(arr,n,i):
+
+    # Build Heap 
     largest = i
     l = 2*i+1
     r = 2*i+2
